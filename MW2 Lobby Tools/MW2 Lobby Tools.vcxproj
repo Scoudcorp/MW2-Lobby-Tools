@@ -1,0 +1,202 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{47B9D17F-8FEA-490D-889A-F595E97E76FD}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>MW2LobbyTools</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <LibraryPath>$(LibraryPath);$(DXSDK_DIR)lib\x86</LibraryPath>
+    <IncludePath>$(VC_IncludePath);$(WindowsSDK_IncludePath);$(DXSDK_DIR)Include</IncludePath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+    <LibraryPath>$(LibraryPath);$(DXSDK_DIR)lib\x86</LibraryPath>
+    <IncludePath>$(VC_IncludePath);$(WindowsSDK_IncludePath);$(DXSDK_DIR)Include</IncludePath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;_USRDLL;MW2LOBBYTOOLS_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <BrowseInformation>true</BrowseInformation>
+      <IntrinsicFunctions>false</IntrinsicFunctions>
+      <FavorSizeOrSpeed>Neither</FavorSizeOrSpeed>
+      <WholeProgramOptimization>false</WholeProgramOptimization>
+      <EnableFiberSafeOptimizations>false</EnableFiberSafeOptimizations>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+    <Bscmake>
+      <PreserveSbr>true</PreserveSbr>
+    </Bscmake>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <Optimization>Full</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;_USRDLL;MW2LOBBYTOOLS_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <FavorSizeOrSpeed>Speed</FavorSizeOrSpeed>
+      <OmitFramePointers>true</OmitFramePointers>
+      <EnableFiberSafeOptimizations>true</EnableFiberSafeOptimizations>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <ImageHasSafeExceptionHandlers>false</ImageHasSafeExceptionHandlers>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="ActionNode.h" />
+    <ClInclude Include="address.h" />
+    <ClInclude Include="AttachmentNode.h" />
+    <ClInclude Include="ChatManager.h" />
+    <ClInclude Include="Client.h" />
+    <ClInclude Include="ClientManager.h" />
+    <ClInclude Include="ClientNode.h" />
+    <ClInclude Include="ConfigManager.h" />
+    <ClInclude Include="CurrentGameManager.h" />
+    <ClInclude Include="CustomEvent.h" />
+    <ClInclude Include="CustomEventManager.h" />
+    <ClInclude Include="detours.h" />
+    <ClInclude Include="DrawManager.h" />
+    <ClInclude Include="EntityManager.h" />
+    <ClInclude Include="EventManager.h" />
+    <ClInclude Include="EventNode.h" />
+    <ClInclude Include="GameManager.h" />
+    <ClInclude Include="InputNode.h" />
+    <ClInclude Include="json.h" />
+    <ClInclude Include="LevelManager.h" />
+    <ClInclude Include="Logger.h" />
+    <ClInclude Include="PatchDvars.h" />
+    <ClInclude Include="PatchJumps.h" />
+    <ClInclude Include="PerkManager.h" />
+    <ClInclude Include="PlayerStateManager.h" />
+    <ClInclude Include="Punishment.h" />
+    <ClInclude Include="PunishmentManager.h" />
+    <ClInclude Include="PermaPunishNode.h" />
+    <ClInclude Include="PunishNode.h" />
+    <ClInclude Include="IW4.h" />
+    <ClInclude Include="HookManager.h" />
+    <ClInclude Include="Memory.h" />
+    <ClInclude Include="MemoryManager.h" />
+    <ClInclude Include="MemoryToggleNode.h" />
+    <ClInclude Include="MenuNode.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="targetver.h" />
+    <ClInclude Include="TeleportManager.h" />
+    <ClInclude Include="types.h" />
+    <ClInclude Include="WeaponConfig.h" />
+    <ClInclude Include="WeaponManager.h" />
+    <ClInclude Include="WeaponNode.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="ActionNode.cpp" />
+    <ClCompile Include="AttachmentNode.cpp" />
+    <ClCompile Include="ChatManager.cpp" />
+    <ClCompile Include="Client.cpp" />
+    <ClCompile Include="ClientManager.cpp" />
+    <ClCompile Include="ClientNode.cpp" />
+    <ClCompile Include="ConfigManager.cpp" />
+    <ClCompile Include="CurrentGameManager.cpp" />
+    <ClCompile Include="CustomEvent.cpp" />
+    <ClCompile Include="CustomEventManager.cpp" />
+    <ClCompile Include="dllmain.cpp">
+      <CompileAsManaged Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</CompileAsManaged>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+      </PrecompiledHeader>
+      <CompileAsManaged Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</CompileAsManaged>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+      </PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="DrawManager.cpp" />
+    <ClCompile Include="EntityManager.cpp" />
+    <ClCompile Include="EventManager.cpp" />
+    <ClCompile Include="EventNode.cpp" />
+    <ClCompile Include="GameManager.cpp" />
+    <ClCompile Include="InputNode.cpp" />
+    <ClCompile Include="IW4.cpp" />
+    <ClCompile Include="HookManager.cpp" />
+    <ClCompile Include="LevelManager.cpp" />
+    <ClCompile Include="Logger.cpp" />
+    <ClCompile Include="Memory.cpp" />
+    <ClCompile Include="MemoryManager.cpp" />
+    <ClCompile Include="MemoryToggleNode.cpp" />
+    <ClCompile Include="MenuNode.cpp" />
+    <ClCompile Include="PatchDvars.cpp" />
+    <ClCompile Include="PatchJumps.cpp" />
+    <ClCompile Include="PerkManager.cpp" />
+    <ClCompile Include="PlayerStateManager.cpp" />
+    <ClCompile Include="Punishment.cpp" />
+    <ClCompile Include="PunishmentManager.cpp" />
+    <ClCompile Include="PermaPunishNode.cpp" />
+    <ClCompile Include="PunishNode.cpp" />
+    <ClCompile Include="stdafx.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="TeleportManager.cpp" />
+    <ClCompile Include="WeaponConfig.cpp" />
+    <ClCompile Include="WeaponManager.cpp" />
+    <ClCompile Include="WeaponNode.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="detours.lib" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="MW2 Lobby Tools.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="README.MD" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="LICENSE.MD" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

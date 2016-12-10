@@ -1,0 +1,409 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\common">
+      <UniqueIdentifier>{ede9ff43-e753-42a3-a6f2-d0f34ae84c16}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\project">
+      <UniqueIdentifier>{b759480f-3659-4285-83ba-06b082a802cc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\lib">
+      <UniqueIdentifier>{c5de2fdb-105d-4d92-a26b-e472b2c99aa9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\project">
+      <UniqueIdentifier>{e9aad9ca-94bd-41f1-8617-8483a5580b4a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Library Files">
+      <UniqueIdentifier>{8a7cbd8f-4868-433e-9aed-5b8ef93b2f8b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\menu">
+      <UniqueIdentifier>{6b617842-d447-4fda-b147-0754daa987f5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\common">
+      <UniqueIdentifier>{45b03a47-5e74-4ee5-9134-cd50fd76ee1d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\menu\DvarInputNode">
+      <UniqueIdentifier>{2b4c646e-bddb-42ae-af06-059f51d3ce56}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\menu\SettingToggleNode">
+      <UniqueIdentifier>{eb4ea48d-98f7-46b1-bbef-401778798da0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\menu\DvarToggleNode">
+      <UniqueIdentifier>{e4d2ad48-dda5-42d6-960f-9917d60ee644}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\menu\MenuNode">
+      <UniqueIdentifier>{919d2ae3-aea0-404e-995d-676568f29f80}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\menu\MemoryToggleNode">
+      <UniqueIdentifier>{2b3629e3-7fca-4164-96e4-428432d8a27b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\menu\ActionNode">
+      <UniqueIdentifier>{5894fcf5-d3b4-4c07-bf08-c0bb9cdb2dde}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\menu\ClientNode">
+      <UniqueIdentifier>{01d4e30e-29fd-408a-ace5-67615c01e205}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\managers">
+      <UniqueIdentifier>{d3772864-b7f9-4313-b7b9-6748be51f678}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\managers\ClientManager">
+      <UniqueIdentifier>{4aecb6b7-1fd7-4d3f-a71d-cf04b1048d73}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\managers\DrawManager">
+      <UniqueIdentifier>{5fea2547-2897-4af8-b4f3-9ed8f663b283}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\managers\EntityManager">
+      <UniqueIdentifier>{9569f5fa-5250-44f0-8619-b8bbdbf81445}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\managers\MemoryManager">
+      <UniqueIdentifier>{db8e563b-8fb8-4033-9690-3c64e90443d2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\managers\HookManager">
+      <UniqueIdentifier>{8dac31bf-43da-4317-9ae1-27ac3f5bed2f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\common\IW4">
+      <UniqueIdentifier>{016179cb-7e3e-4de9-bdcb-7bacc7f4bf37}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\common\Memory">
+      <UniqueIdentifier>{309f3a00-4cb3-47a6-9bee-e94cf9b34917}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\managers\WeaponManager">
+      <UniqueIdentifier>{74ee4d51-3f58-45f5-b951-afe373d4555a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\menu\EventNode">
+      <UniqueIdentifier>{29e68c74-8a35-4e9a-a450-28959342d7e9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\managers\PlayerStateManager">
+      <UniqueIdentifier>{8616e31e-76f1-40f1-a13d-2ea78ee7fe0c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\managers\GameManager">
+      <UniqueIdentifier>{0a86e178-302f-45e8-b913-e46783c94fa1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\menu\InputNode">
+      <UniqueIdentifier>{2bcf8588-e24b-4579-98cd-8fc0471e8fcb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\managers\EventManager">
+      <UniqueIdentifier>{b2726cd6-8372-425d-bf7c-d2e68e654ef8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\managers\CurrentGameManager">
+      <UniqueIdentifier>{100593b4-0dcc-4643-bbd8-48d48fd00f42}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\managers\CurrentGameManager\Client">
+      <UniqueIdentifier>{fa084e08-b68d-47b6-80d5-66640b465674}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\patches">
+      <UniqueIdentifier>{2f3dc75f-093b-4ac1-92ba-30a3410fb673}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\managers\CustomEventManager">
+      <UniqueIdentifier>{73247756-9b6f-41e5-aaa3-c5a87710120a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\managers\ConfigManager">
+      <UniqueIdentifier>{ca9c13a6-5f83-4788-8d46-a5f3f35d6914}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\managers\ConfigManager\WeaponConfig">
+      <UniqueIdentifier>{c1ade8aa-54c6-4efe-be71-33f5c922880f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\managers\LevelManager">
+      <UniqueIdentifier>{4f286460-fd19-44cd-81b4-591e15c79336}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\common\Logger">
+      <UniqueIdentifier>{d6895fc7-2ea1-4eff-b4b2-cb209c83b4ca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\managers\PunishmentManager">
+      <UniqueIdentifier>{446d11dc-d1b3-490f-8d97-407547ef1375}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\managers\PunishmentManager\Punishment">
+      <UniqueIdentifier>{f459aa31-a0c8-4905-8228-e585780d142a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\managers\TeleportManager">
+      <UniqueIdentifier>{1f976503-f6ac-4ef1-b1c8-fdf922e4d8df}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\menu\ClientNode\PermaPunishNode">
+      <UniqueIdentifier>{3b281309-af0f-4657-8f4a-a7666096e701}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\menu\ClientNode\PunishNode">
+      <UniqueIdentifier>{7c978fbe-d966-4634-a83e-f601902b9b5c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\managers\ChatManager">
+      <UniqueIdentifier>{24e209d2-6dde-4937-8300-26a5cd82436d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\menu\WeaponNode">
+      <UniqueIdentifier>{f0d8e850-0602-4e87-a1f1-2247c2f3a3ca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\managers\PerkManager">
+      <UniqueIdentifier>{562adf36-d8e6-4650-a49a-5b5b69a11a44}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="address.h">
+      <Filter>Header Files\common</Filter>
+    </ClInclude>
+    <ClInclude Include="types.h">
+      <Filter>Header Files\common</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Header Files\project</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>Header Files\project</Filter>
+    </ClInclude>
+    <ClInclude Include="detours.h">
+      <Filter>Header Files\lib</Filter>
+    </ClInclude>
+    <ClInclude Include="MenuNode.h">
+      <Filter>Source Files\menu\MenuNode</Filter>
+    </ClInclude>
+    <ClInclude Include="ActionNode.h">
+      <Filter>Source Files\menu\ActionNode</Filter>
+    </ClInclude>
+    <ClInclude Include="MemoryToggleNode.h">
+      <Filter>Source Files\menu\MemoryToggleNode</Filter>
+    </ClInclude>
+    <ClInclude Include="ClientNode.h">
+      <Filter>Source Files\menu\ClientNode</Filter>
+    </ClInclude>
+    <ClInclude Include="ClientManager.h">
+      <Filter>Source Files\managers\ClientManager</Filter>
+    </ClInclude>
+    <ClInclude Include="DrawManager.h">
+      <Filter>Source Files\managers\DrawManager</Filter>
+    </ClInclude>
+    <ClInclude Include="EntityManager.h">
+      <Filter>Source Files\managers\EntityManager</Filter>
+    </ClInclude>
+    <ClInclude Include="MemoryManager.h">
+      <Filter>Source Files\managers\MemoryManager</Filter>
+    </ClInclude>
+    <ClInclude Include="HookManager.h">
+      <Filter>Source Files\managers\HookManager</Filter>
+    </ClInclude>
+    <ClInclude Include="IW4.h">
+      <Filter>Source Files\common\IW4</Filter>
+    </ClInclude>
+    <ClInclude Include="Memory.h">
+      <Filter>Source Files\common\Memory</Filter>
+    </ClInclude>
+    <ClInclude Include="WeaponManager.h">
+      <Filter>Source Files\managers\WeaponManager</Filter>
+    </ClInclude>
+    <ClInclude Include="EventNode.h">
+      <Filter>Source Files\menu\EventNode</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerStateManager.h">
+      <Filter>Source Files\managers\PlayerStateManager</Filter>
+    </ClInclude>
+    <ClInclude Include="GameManager.h">
+      <Filter>Source Files\managers\GameManager</Filter>
+    </ClInclude>
+    <ClInclude Include="InputNode.h">
+      <Filter>Source Files\menu\InputNode</Filter>
+    </ClInclude>
+    <ClInclude Include="EventManager.h">
+      <Filter>Source Files\managers\EventManager</Filter>
+    </ClInclude>
+    <ClInclude Include="CurrentGameManager.h">
+      <Filter>Source Files\managers\CurrentGameManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Client.h">
+      <Filter>Source Files\managers\CurrentGameManager\Client</Filter>
+    </ClInclude>
+    <ClInclude Include="PatchDvars.h">
+      <Filter>Source Files\patches</Filter>
+    </ClInclude>
+    <ClInclude Include="PatchJumps.h">
+      <Filter>Source Files\patches</Filter>
+    </ClInclude>
+    <ClInclude Include="CustomEventManager.h">
+      <Filter>Source Files\managers\CustomEventManager</Filter>
+    </ClInclude>
+    <ClInclude Include="CustomEvent.h">
+      <Filter>Source Files\managers\CustomEventManager</Filter>
+    </ClInclude>
+    <ClInclude Include="ConfigManager.h">
+      <Filter>Source Files\managers\ConfigManager</Filter>
+    </ClInclude>
+    <ClInclude Include="WeaponConfig.h">
+      <Filter>Source Files\managers\ConfigManager\WeaponConfig</Filter>
+    </ClInclude>
+    <ClInclude Include="LevelManager.h">
+      <Filter>Source Files\managers\LevelManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Logger.h">
+      <Filter>Source Files\common\Logger</Filter>
+    </ClInclude>
+    <ClInclude Include="PunishmentManager.h">
+      <Filter>Source Files\managers\PunishmentManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Punishment.h">
+      <Filter>Source Files\managers\PunishmentManager\Punishment</Filter>
+    </ClInclude>
+    <ClInclude Include="TeleportManager.h">
+      <Filter>Source Files\managers\TeleportManager</Filter>
+    </ClInclude>
+    <ClInclude Include="PermaPunishNode.h">
+      <Filter>Source Files\menu\ClientNode\PermaPunishNode</Filter>
+    </ClInclude>
+    <ClInclude Include="PunishNode.h">
+      <Filter>Source Files\menu\ClientNode\PunishNode</Filter>
+    </ClInclude>
+    <ClInclude Include="ChatManager.h">
+      <Filter>Source Files\managers\ChatManager</Filter>
+    </ClInclude>
+    <ClInclude Include="WeaponNode.h">
+      <Filter>Source Files\menu\WeaponNode</Filter>
+    </ClInclude>
+    <ClInclude Include="AttachmentNode.h">
+      <Filter>Source Files\menu\WeaponNode</Filter>
+    </ClInclude>
+    <ClInclude Include="json.h">
+      <Filter>Header Files\lib</Filter>
+    </ClInclude>
+    <ClInclude Include="PerkManager.h">
+      <Filter>Source Files\managers\PerkManager</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="dllmain.cpp">
+      <Filter>Source Files\project</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Source Files\project</Filter>
+    </ClCompile>
+    <ClCompile Include="MenuNode.cpp">
+      <Filter>Source Files\menu\MenuNode</Filter>
+    </ClCompile>
+    <ClCompile Include="ActionNode.cpp">
+      <Filter>Source Files\menu\ActionNode</Filter>
+    </ClCompile>
+    <ClCompile Include="MemoryToggleNode.cpp">
+      <Filter>Source Files\menu\MemoryToggleNode</Filter>
+    </ClCompile>
+    <ClCompile Include="ClientNode.cpp">
+      <Filter>Source Files\menu\ClientNode</Filter>
+    </ClCompile>
+    <ClCompile Include="ClientManager.cpp">
+      <Filter>Source Files\managers\ClientManager</Filter>
+    </ClCompile>
+    <ClCompile Include="DrawManager.cpp">
+      <Filter>Source Files\managers\DrawManager</Filter>
+    </ClCompile>
+    <ClCompile Include="EntityManager.cpp">
+      <Filter>Source Files\managers\EntityManager</Filter>
+    </ClCompile>
+    <ClCompile Include="MemoryManager.cpp">
+      <Filter>Source Files\managers\MemoryManager</Filter>
+    </ClCompile>
+    <ClCompile Include="HookManager.cpp">
+      <Filter>Source Files\managers\HookManager</Filter>
+    </ClCompile>
+    <ClCompile Include="IW4.cpp">
+      <Filter>Source Files\common\IW4</Filter>
+    </ClCompile>
+    <ClCompile Include="Memory.cpp">
+      <Filter>Source Files\common\Memory</Filter>
+    </ClCompile>
+    <ClCompile Include="WeaponManager.cpp">
+      <Filter>Source Files\managers\WeaponManager</Filter>
+    </ClCompile>
+    <ClCompile Include="EventNode.cpp">
+      <Filter>Source Files\menu\EventNode</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerStateManager.cpp">
+      <Filter>Source Files\managers\PlayerStateManager</Filter>
+    </ClCompile>
+    <ClCompile Include="GameManager.cpp">
+      <Filter>Source Files\managers\GameManager</Filter>
+    </ClCompile>
+    <ClCompile Include="InputNode.cpp">
+      <Filter>Source Files\menu\InputNode</Filter>
+    </ClCompile>
+    <ClCompile Include="EventManager.cpp">
+      <Filter>Source Files\managers\EventManager</Filter>
+    </ClCompile>
+    <ClCompile Include="CurrentGameManager.cpp">
+      <Filter>Source Files\managers\CurrentGameManager</Filter>
+    </ClCompile>
+    <ClCompile Include="Client.cpp">
+      <Filter>Source Files\managers\CurrentGameManager\Client</Filter>
+    </ClCompile>
+    <ClCompile Include="PatchDvars.cpp">
+      <Filter>Source Files\patches</Filter>
+    </ClCompile>
+    <ClCompile Include="PatchJumps.cpp">
+      <Filter>Source Files\patches</Filter>
+    </ClCompile>
+    <ClCompile Include="CustomEventManager.cpp">
+      <Filter>Source Files\managers\CustomEventManager</Filter>
+    </ClCompile>
+    <ClCompile Include="CustomEvent.cpp">
+      <Filter>Source Files\managers\CustomEventManager</Filter>
+    </ClCompile>
+    <ClCompile Include="ConfigManager.cpp">
+      <Filter>Source Files\managers\ConfigManager</Filter>
+    </ClCompile>
+    <ClCompile Include="WeaponConfig.cpp">
+      <Filter>Source Files\managers\ConfigManager\WeaponConfig</Filter>
+    </ClCompile>
+    <ClCompile Include="LevelManager.cpp">
+      <Filter>Source Files\managers\LevelManager</Filter>
+    </ClCompile>
+    <ClCompile Include="Logger.cpp">
+      <Filter>Source Files\common\Logger</Filter>
+    </ClCompile>
+    <ClCompile Include="PunishmentManager.cpp">
+      <Filter>Source Files\managers\PunishmentManager</Filter>
+    </ClCompile>
+    <ClCompile Include="Punishment.cpp">
+      <Filter>Source Files\managers\PunishmentManager\Punishment</Filter>
+    </ClCompile>
+    <ClCompile Include="TeleportManager.cpp">
+      <Filter>Source Files\managers\TeleportManager</Filter>
+    </ClCompile>
+    <ClCompile Include="PermaPunishNode.cpp">
+      <Filter>Source Files\menu\ClientNode\PermaPunishNode</Filter>
+    </ClCompile>
+    <ClCompile Include="PunishNode.cpp">
+      <Filter>Source Files\menu\ClientNode\PunishNode</Filter>
+    </ClCompile>
+    <ClCompile Include="ChatManager.cpp">
+      <Filter>Source Files\managers\ChatManager</Filter>
+    </ClCompile>
+    <ClCompile Include="WeaponNode.cpp">
+      <Filter>Source Files\menu\WeaponNode</Filter>
+    </ClCompile>
+    <ClCompile Include="AttachmentNode.cpp">
+      <Filter>Source Files\menu\WeaponNode</Filter>
+    </ClCompile>
+    <ClCompile Include="PerkManager.cpp">
+      <Filter>Source Files\managers\PerkManager</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="detours.lib">
+      <Filter>Library Files</Filter>
+    </Library>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="MW2 Lobby Tools.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="README.MD" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="LICENSE.MD" />
+  </ItemGroup>
+</Project>
