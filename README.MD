@@ -1,7 +1,10 @@
-#MW2 Lobby Tools by Scoud
+# MW2 Lobby Tools by Scoud
 
 MW2 Lobby Tools (MW2LT) are a set of tools to enhance the MW2 lobby experience by giving power back to the host.
 Also, this was my first cpp project ever, so the code could be much much much better.
+
+## New (!)
+My research (idb from ida) are now stored here. Feel free to use it. Note: some information in the IDBs can be wrong).
 
 ## Features
 * **General**
